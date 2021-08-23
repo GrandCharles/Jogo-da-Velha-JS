@@ -1,0 +1,126 @@
+h1 {
+    font-size: 42px;
+}
+
+/*
+div {
+    border: 2px solid rgb(11, 97, 18)
+}
+*/
+/*
+#id_footer_1 {
+    border: 2px solid rgb(219, 33, 58)
+}
+*/
+
+body {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+
+}
+
+button {
+    border: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+}
+
+.box {
+    height: 100px;                        /* altura */
+    border: 5px solid rgb(63, 13, 4);   /* borda*/
+    box-sizing: border-box;
+    flex: 1 1 33%;
+}
+
+/* Bordas do jogo */
+#id_div_2 {
+    display: flex;
+    width: 300px;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Centraliza uma div */
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#id_div_2_L1_C1, #id_div_2_L1_C2, #id_div_2_L1_C3 {
+    border-top: none;
+}
+#id_div_2_L1_C1, #id_div_2_L2_C1, #id_div_2_L3_C1 {
+    border-left: none;
+}
+#id_div_2_L1_C3, #id_div_2_L2_C3, #id_div_2_L3_C3 {
+    border-right: none;
+}
+#id_div_2_L3_C1, #id_div_2_L3_C2, #id_div_2_L3_C3 {
+    border-bottom: none;
+}
+
+/* Simbolos */
+.x {
+    font-size: 80px;
+    color: red;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.o {
+    width: 50px;
+    height: 50px;
+    border: 5px solid  rgb(70, 15, 197);
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 17px;
+}
+
+/* Classe para esconder */
+.hide {
+    display: none !important;
+}
+
+
+/* Placar */
+#id_div_3 {
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 25px;
+    position: relative;
+    color: springgreen;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.score_box {
+    margin: 0 20px;
+}
+
+#id_span_1 {
+    color: red;
+    margin-right: 3px;
+}
+#id_span_3 {
+    display: inline-block; 
+    width: 18px;
+    height: 18px;
+    border: 2px solid  rgb(70, 15, 197);
+    border-radius: 50px;
+    margin-right: auto;
+}
+
+/*Mensagem de Vitória */
+#id_div_5 p {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 150px;
+    width: 500px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    padding: 20px; /* Afasta o texto da borda */
+}
+
